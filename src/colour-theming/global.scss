@@ -1,0 +1,32 @@
+@use 'functions' as func;
+@use 'variables' as *;
+
+@layer theming-base {
+	:root {
+		@each $name, $values in $defaults {
+			--color-#{$name}: #{map-get($defaults, '#{$name}')};
+		}
+		@each $name in map-keys($defaults) {
+			--readable-color-#{$name}: contrast-color(var(--color-#{$name}));
+		}
+	}
+
+	@each $name in map-keys($defaults) {
+		body[data-global-background="#{$name}"] {
+			background-color: var(--color-#{$name});
+			color: var(--readable-color-#{$name});
+		}
+
+		[data-background="#{$name}"] {
+			--background-color: var(--color-#{$name});
+			--theme-color: var(--readable-color-#{$name});
+			background: var(--background-color);
+			color: var(--theme-color);
+		}
+
+		[data-color-theme="#{$name}"] {
+			--theme-color: var(--color-#{$name});
+			--theme-color-inverse: var(--readable-color-#{$name});
+		}
+	}
+}

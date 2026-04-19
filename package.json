@@ -1,0 +1,29 @@
+{
+	"name": "@doubleedesign/css-playground",
+	"description": "Storybook to test and demo CSS stuff",
+	"version": "1.0.0",
+	"author": "Leesa Ward",
+	"license": "UNLICENSED",
+	"scripts": {
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	},
+	"devDependencies": {
+		"@storybook/addon-a11y": "^10.3.5",
+		"@storybook/addon-docs": "^10.3.5",
+		"@storybook/vue3-vite": "^10.3.5",
+		"@stylistic/eslint-plugin-ts": "^4.4.1",
+		"@typescript-eslint/eslint-plugin": "^8.57.1",
+		"@typescript-eslint/parser": "^8.57.1",
+		"@vitejs/plugin-vue": "^6.0.6",
+		"@whitespace/storybook-addon-html": "^9.0.0",
+		"eslint": "^10.1.0",
+		"eslint-plugin-storybook": "^10.3.1",
+		"eslint-plugin-vue": "^10.8.0",
+		"globals": "^17.5.0",
+		"storybook": "^10.3.5",
+		"typescript": "^5.5.3",
+		"vue": "^3.5.32",
+		"vue-eslint-parser": "^10.4.0"
+	}
+}

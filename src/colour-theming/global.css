@@ -1,0 +1,166 @@
+@layer theming-base {
+  :root {
+    --color-primary: #845ec2;
+    --color-secondary: #00c9a7;
+    --color-accent: #ba3caf;
+    --color-info: #00d2fc;
+    --color-warning: #f9c971;
+    --color-success: #00c9a7;
+    --color-error: #d23e3e;
+    --color-light: #F0F0F2;
+    --color-dark: #4b4453;
+    --color-white: #ffffff;
+    --readable-color-primary: contrast-color(var(--color-primary));
+    --readable-color-secondary: contrast-color(var(--color-secondary));
+    --readable-color-accent: contrast-color(var(--color-accent));
+    --readable-color-info: contrast-color(var(--color-info));
+    --readable-color-warning: contrast-color(var(--color-warning));
+    --readable-color-success: contrast-color(var(--color-success));
+    --readable-color-error: contrast-color(var(--color-error));
+    --readable-color-light: contrast-color(var(--color-light));
+    --readable-color-dark: contrast-color(var(--color-dark));
+    --readable-color-white: contrast-color(var(--color-white));
+  }
+  body[data-global-background=primary] {
+    background-color: var(--color-primary);
+    color: var(--readable-color-primary);
+  }
+  [data-background=primary] {
+    --background-color: var(--color-primary);
+    --theme-color: var(--readable-color-primary);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=primary] {
+    --theme-color: var(--color-primary);
+    --theme-color-inverse: var(--readable-color-primary);
+  }
+  body[data-global-background=secondary] {
+    background-color: var(--color-secondary);
+    color: var(--readable-color-secondary);
+  }
+  [data-background=secondary] {
+    --background-color: var(--color-secondary);
+    --theme-color: var(--readable-color-secondary);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=secondary] {
+    --theme-color: var(--color-secondary);
+    --theme-color-inverse: var(--readable-color-secondary);
+  }
+  body[data-global-background=accent] {
+    background-color: var(--color-accent);
+    color: var(--readable-color-accent);
+  }
+  [data-background=accent] {
+    --background-color: var(--color-accent);
+    --theme-color: var(--readable-color-accent);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=accent] {
+    --theme-color: var(--color-accent);
+    --theme-color-inverse: var(--readable-color-accent);
+  }
+  body[data-global-background=info] {
+    background-color: var(--color-info);
+    color: var(--readable-color-info);
+  }
+  [data-background=info] {
+    --background-color: var(--color-info);
+    --theme-color: var(--readable-color-info);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=info] {
+    --theme-color: var(--color-info);
+    --theme-color-inverse: var(--readable-color-info);
+  }
+  body[data-global-background=warning] {
+    background-color: var(--color-warning);
+    color: var(--readable-color-warning);
+  }
+  [data-background=warning] {
+    --background-color: var(--color-warning);
+    --theme-color: var(--readable-color-warning);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=warning] {
+    --theme-color: var(--color-warning);
+    --theme-color-inverse: var(--readable-color-warning);
+  }
+  body[data-global-background=success] {
+    background-color: var(--color-success);
+    color: var(--readable-color-success);
+  }
+  [data-background=success] {
+    --background-color: var(--color-success);
+    --theme-color: var(--readable-color-success);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=success] {
+    --theme-color: var(--color-success);
+    --theme-color-inverse: var(--readable-color-success);
+  }
+  body[data-global-background=error] {
+    background-color: var(--color-error);
+    color: var(--readable-color-error);
+  }
+  [data-background=error] {
+    --background-color: var(--color-error);
+    --theme-color: var(--readable-color-error);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=error] {
+    --theme-color: var(--color-error);
+    --theme-color-inverse: var(--readable-color-error);
+  }
+  body[data-global-background=light] {
+    background-color: var(--color-light);
+    color: var(--readable-color-light);
+  }
+  [data-background=light] {
+    --background-color: var(--color-light);
+    --theme-color: var(--readable-color-light);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=light] {
+    --theme-color: var(--color-light);
+    --theme-color-inverse: var(--readable-color-light);
+  }
+  body[data-global-background=dark] {
+    background-color: var(--color-dark);
+    color: var(--readable-color-dark);
+  }
+  [data-background=dark] {
+    --background-color: var(--color-dark);
+    --theme-color: var(--readable-color-dark);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=dark] {
+    --theme-color: var(--color-dark);
+    --theme-color-inverse: var(--readable-color-dark);
+  }
+  body[data-global-background=white] {
+    background-color: var(--color-white);
+    color: var(--readable-color-white);
+  }
+  [data-background=white] {
+    --background-color: var(--color-white);
+    --theme-color: var(--readable-color-white);
+    background: var(--background-color);
+    color: var(--theme-color);
+  }
+  [data-color-theme=white] {
+    --theme-color: var(--color-white);
+    --theme-color-inverse: var(--readable-color-white);
+  }
+}
+
+/*# sourceMappingURL=global.css.map */
