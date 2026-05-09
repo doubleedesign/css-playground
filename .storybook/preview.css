@@ -153,9 +153,7 @@
     line-height: var(--line-height-base);
     font-size-adjust: ex-height 0.53;
   }
-  @container style(--letter-spacing: body) {
-    letter-spacing: var(--letter-spacing-body);
-  }
+
   @container style(--background-color: dark) {
     * {
       background: var(--color-dark);
