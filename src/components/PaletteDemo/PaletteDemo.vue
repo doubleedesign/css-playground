@@ -14,7 +14,6 @@ const colors = computed(() => {
 });
 
 let styleEl: HTMLStyleElement | null = null;
-
 watchEffect(() => {
 	if (!styleEl) {
 		styleEl = document.createElement('style');
@@ -22,7 +21,7 @@ watchEffect(() => {
 	}
 
 	styleEl.textContent = `:root {\n${
-		Object.entries(colors.value) // ✅
+		Object.entries(colors.value)
 			.reduce((acc, [color, value]) => {
 				acc += `--color-${color}: ${value};\n`;
 
@@ -49,6 +48,7 @@ onUnmounted(() => {
 .palette-demo {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
+	padding: 1rem;
 
 	[data-background] {
 		grid-column: span 3;
@@ -85,6 +85,10 @@ onUnmounted(() => {
 	[data-background="dark"] {
 		grid-column: span 6;
 		line-height: 3;
+	}
+
+	[data-background="white"] {
+		display: none;
 	}
 }
 </style>

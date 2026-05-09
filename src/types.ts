@@ -8,4 +8,14 @@ export enum ThemeColor {
 	INFO = 'info',
 	LIGHT = 'light',
 	DARK = 'dark',
+	WHITE = 'white',
+}
+
+export enum LayoutContainerSize {
+	FULL = 'full',
+	WIDE = 'wide',
+	CONTAINED = 'contained',
+	NARROW = 'narrow',
+	NARROWER = 'narrower',
+	SMALL = 'small',
 }

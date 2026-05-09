@@ -25,6 +25,7 @@ const preview: Preview = {
 			}
 		},
 	},
+	decorators: [() => ({ template: '<div data-typography-mode="docs"><story/></div>' })],
 };
 
 export default preview;

@@ -1,3 +1,7 @@
 @use '../node_modules/@doubleedesign/doublee-site-style/doublee-fonts.scss';
+@use '../node_modules/@doubleedesign/doublee-site-style/doublee-common.scss';
 @use '../node_modules/@doubleedesign/doublee-site-style/doublee-storybook-preview.scss';
 
+.sb-show-main {
+	padding: 0 !important;
+}

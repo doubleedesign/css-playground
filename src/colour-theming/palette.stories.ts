@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 import PaletteDemo from '../components/PaletteDemo/PaletteDemo.vue';
 import { defaultTheme } from './default-theme';
-import { ThemeColor } from './types';
-import './global.css';
+import { ThemeColor } from '../types';
+import '../global.css';
 
 const meta: Meta<typeof defaultTheme> = {
 	title: 'Colour Theming/Basic Palette',

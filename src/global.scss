@@ -1,7 +1,7 @@
 @use 'functions' as func;
-@use '../../node_modules/@doubleedesign/doublee-site-style/doublee-tokens.scss';
+@use '../node_modules/@doubleedesign/doublee-site-style/doublee-tokens';
 
-$colourNames: ('primary', 'secondary', 'accent', 'info', 'error', 'success', 'warning', 'light', 'dark');
+$colourNames: ('primary', 'secondary', 'accent', 'info', 'error', 'success', 'warning', 'light', 'dark', 'white');
 
 @layer theming-base {
 

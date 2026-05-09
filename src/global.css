@@ -102,6 +102,9 @@
   [data-typography-mode=docs] {
     --font-family-headings: 'Neue Montreal', 'Neue Helvetica', Helvetica, Arial, sans-serif;
     --font-family-body: 'Neue Montreal', 'Neue Helvetica', Helvetica, Arial, sans-serif;
+    --font-size-base: 1rem;
+    --line-height-base: 1.7;
+    --typescale: 1.2;
     --font-body: var(--font-weight-normal) var(--font-size-body) var(--font-family-body);
     --font-md: var(--font-weight-medium) var(--font-size-body) var(--font-family-accent);
     --font-lg: var(--font-weight-semibold) var(--font-size-md) var(--font-family-headings);
@@ -196,6 +199,14 @@
     --background-color: var(--color-dark);
     --active-color: var(--color-secondary);
   }
+  body[data-global-background=white] {
+    background-color: var(--color-white);
+    --theme-color: contrast-color(var(--color-white));
+  }
+  [data-background=white] {
+    --background-color: var(--color-white);
+    --active-color: var(--color-secondary);
+  }
   [data-color-theme=primary] {
     --theme-color: var(--color-primary);
   }
@@ -223,6 +234,9 @@
   [data-color-theme=dark] {
     --theme-color: var(--color-dark);
   }
+  [data-color-theme=white] {
+    --theme-color: var(--color-white);
+  }
   [data-background=primary-secondary] {
     --background-color: var(--gradient-primary-secondary);
   }
@@ -246,6 +260,9 @@
   }
   [data-background=primary-dark] {
     --background-color: var(--gradient-primary-dark);
+  }
+  [data-background=primary-white] {
+    --background-color: var(--gradient-primary-white);
   }
   [data-background=secondary-primary] {
     --background-color: var(--gradient-secondary-primary);
@@ -271,6 +288,9 @@
   [data-background=secondary-dark] {
     --background-color: var(--gradient-secondary-dark);
   }
+  [data-background=secondary-white] {
+    --background-color: var(--gradient-secondary-white);
+  }
   [data-background=accent-primary] {
     --background-color: var(--gradient-accent-primary);
   }
@@ -294,6 +314,9 @@
   }
   [data-background=accent-dark] {
     --background-color: var(--gradient-accent-dark);
+  }
+  [data-background=accent-white] {
+    --background-color: var(--gradient-accent-white);
   }
   [data-background=info-primary] {
     --background-color: var(--gradient-info-primary);
@@ -319,6 +342,9 @@
   [data-background=info-dark] {
     --background-color: var(--gradient-info-dark);
   }
+  [data-background=info-white] {
+    --background-color: var(--gradient-info-white);
+  }
   [data-background=error-primary] {
     --background-color: var(--gradient-error-primary);
   }
@@ -342,6 +368,9 @@
   }
   [data-background=error-dark] {
     --background-color: var(--gradient-error-dark);
+  }
+  [data-background=error-white] {
+    --background-color: var(--gradient-error-white);
   }
   [data-background=success-primary] {
     --background-color: var(--gradient-success-primary);
@@ -367,6 +396,9 @@
   [data-background=success-dark] {
     --background-color: var(--gradient-success-dark);
   }
+  [data-background=success-white] {
+    --background-color: var(--gradient-success-white);
+  }
   [data-background=warning-primary] {
     --background-color: var(--gradient-warning-primary);
   }
@@ -390,6 +422,9 @@
   }
   [data-background=warning-dark] {
     --background-color: var(--gradient-warning-dark);
+  }
+  [data-background=warning-white] {
+    --background-color: var(--gradient-warning-white);
   }
   [data-background=light-primary] {
     --background-color: var(--gradient-light-primary);
@@ -415,6 +450,9 @@
   [data-background=light-dark] {
     --background-color: var(--gradient-light-dark);
   }
+  [data-background=light-white] {
+    --background-color: var(--gradient-light-white);
+  }
   [data-background=dark-primary] {
     --background-color: var(--gradient-dark-primary);
   }
@@ -438,6 +476,36 @@
   }
   [data-background=dark-light] {
     --background-color: var(--gradient-dark-light);
+  }
+  [data-background=dark-white] {
+    --background-color: var(--gradient-dark-white);
+  }
+  [data-background=white-primary] {
+    --background-color: var(--gradient-white-primary);
+  }
+  [data-background=white-secondary] {
+    --background-color: var(--gradient-white-secondary);
+  }
+  [data-background=white-accent] {
+    --background-color: var(--gradient-white-accent);
+  }
+  [data-background=white-info] {
+    --background-color: var(--gradient-white-info);
+  }
+  [data-background=white-error] {
+    --background-color: var(--gradient-white-error);
+  }
+  [data-background=white-success] {
+    --background-color: var(--gradient-white-success);
+  }
+  [data-background=white-warning] {
+    --background-color: var(--gradient-white-warning);
+  }
+  [data-background=white-light] {
+    --background-color: var(--gradient-white-light);
+  }
+  [data-background=white-dark] {
+    --background-color: var(--gradient-white-dark);
   }
 }
 

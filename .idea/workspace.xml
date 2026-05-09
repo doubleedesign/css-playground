@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="878bcd82-468d-4f09-ae7b-04476f7b772c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/layout/no-containers.stories.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/manager-head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/manager.css" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/manager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/manager.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/manager.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/manager.scss" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/manager.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storybook/preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storybook/preview.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storybook/preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.storybook/preview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-assets/prism-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-assets/prism-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-assets/prism-theme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colour-theming/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_functions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/colour-theming/default-theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/default-theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colour-theming/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colour-theming/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/global.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colour-theming/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/palette.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/palette.stories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaletteDemo/PaletteDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PaletteDemo/PaletteDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,42 +49,45 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.22.2&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.19.17&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/leesa/WebstormProjects/css-playground/.storybook&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.runtime&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\leesa\\WebstormProjects\\css-playground\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "22.22.2",
+    "javascript.nodejs.core.library.typings.version": "22.19.17",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/leesa/WebstormProjects/css-playground/.storybook",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\leesa\\WebstormProjects\\css-playground\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\leesa\WebstormProjects\css-playground\.storybook" />
       <recent name="C:\Users\leesa\WebstormProjects\css-playground" />
       <recent name="C:\Users\leesa\WebstormProjects\css-playground\src\colour-theming" />
       <recent name="C:\Users\leesa\WebstormProjects\css-playground\src\theming" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leesa\WebstormProjects\css-playground\src" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -100,7 +106,7 @@
       <updated>1776561710521</updated>
       <workItem from="1776561711588" duration="21699000" />
       <workItem from="1776644328286" duration="6695000" />
-      <workItem from="1778290008600" duration="2024000" />
+      <workItem from="1778290008600" duration="12745000" />
     </task>
     <servers />
   </component>

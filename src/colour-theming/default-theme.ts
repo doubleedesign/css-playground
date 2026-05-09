@@ -1,4 +1,4 @@
-import { ThemeColor } from './types';
+import { ThemeColor } from '../types';
 
 export const defaultTheme: Record<ThemeColor, string> = {
 	'primary': '#502595',
