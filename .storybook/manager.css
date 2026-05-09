@@ -595,55 +595,43 @@
   font-family: "Fira Code", monospace !important;
 }
 
-.sbdocs-content h2, .sbdocs-content h3 {
-  border: 0;
-  margin: revert-layer !important;
-  padding: revert-layer;
+.sidebar-header img {
+  max-height: 40px;
 }
-.sbdocs-content code {
-  font-size: inherit !important;
-  font-family: var(--font-family-code) !important;
+
+#storybook-explorer-tree button {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
 }
-.sbdocs-content p, .sbdocs-content li {
+#storybook-explorer-tree .sidebar-subheading button {
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: inherit;
+  text-transform: none;
   font-size: var(--font-size-body);
 }
-.sbdocs-content a {
-  font-family: inherit !important;
-  color: currentColor;
-}
-.sbdocs-content a:hover, .sbdocs-content a:focus, .sbdocs-content a:active {
-  color: var(--color-accent);
-}
-.sbdocs-content pre:has(.prismjs) {
-  margin: 0;
-  padding: 0;
-}
-.sbdocs-content .docblock-argstable-body {
+#storybook-explorer-tree .sidebar-item button, #storybook-explorer-tree .sidebar-item a {
   font-size: var(--font-size-sm);
-}
-.sbdocs-content pre:has(.docblock-source) {
-  width: 100%;
-}
-.sbdocs-content div:has(.prismjs) {
-  font-size: 1rem;
-}
-.sbdocs-content .docblock-source {
-  margin: 0 !important;
-}
-.sbdocs-content .docblock-source div:has(button) {
-  background: transparent;
-}
-.sbdocs-content .docblock-source button {
-  color: var(--color-light);
-  background: rgba(255, 255, 255, 0.15);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-normal);
   text-decoration: underline;
   text-decoration-color: transparent;
   transition: all 0.2s ease-in-out;
+  line-height: 1.25;
 }
-.sbdocs-content .docblock-source button:hover, .sbdocs-content .docblock-source button:focus, .sbdocs-content .docblock-source button:active {
+#storybook-explorer-tree .sidebar-item button:hover, #storybook-explorer-tree .sidebar-item button:focus, #storybook-explorer-tree .sidebar-item button:active, #storybook-explorer-tree .sidebar-item a:hover, #storybook-explorer-tree .sidebar-item a:focus, #storybook-explorer-tree .sidebar-item a:active {
   text-decoration-color: currentColor;
-  background: var(--color-accent);
+  background: rgb(from var(--color-primary) r g b/0.15);
+}
+#storybook-explorer-tree .sidebar-item button[aria-label="Open context menu"] {
+  display: none;
+}
+#storybook-explorer-tree .sidebar-item a div:has(svg) {
+  margin-top: 1px;
 }
 
-/*# sourceMappingURL=preview.css.map */
+#storybook-panel-root .docblock-argstable-body td:has(button) {
+  letter-spacing: unset;
+  text-transform: none;
+  font-size: inherit;
+}
+
+/*# sourceMappingURL=manager.css.map */

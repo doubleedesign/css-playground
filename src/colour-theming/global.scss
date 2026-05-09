@@ -1,32 +1,56 @@
 @use 'functions' as func;
-@use 'variables' as *;
+@use '../../node_modules/@doubleedesign/doublee-site-style/doublee-tokens.scss';
+
+$colourNames: ('primary', 'secondary', 'accent', 'info', 'error', 'success', 'warning', 'light', 'dark');
 
 @layer theming-base {
-	:root {
-		@each $name, $values in $defaults {
-			--color-#{$name}: #{map-get($defaults, '#{$name}')};
+
+	/*-------------------------------------------------------------------
+	  Colour theming defaults
+	  Note: Application of text colours for the data-color-theme attribute is not handled here
+	  - it is expected to be applied to particular common elements (e.g., lead paragraph)
+	  and/or within components where appropriate using the --theme-color variable set here
+	------------------------------------------------------------------ */
+	[data-background] {
+		background-color: var(--background-color);
+		--theme-color: contrast-color(var(--background-color));
+		color: var(--theme-color);
+	}
+
+	[data-color-theme] {
+		// This can be contextually changed to do things like yellow on a navy background instead of white, while keeping this sensible default
+		--theme-color-inverse: contrast-color(var(--theme-color));
+	}
+
+	@each $colorName in $colourNames {
+		body[data-global-background="#{$colorName}"] {
+			background-color: var(--color-#{$colorName});
+			--theme-color: contrast-color(var(--color-#{$colorName}));
 		}
-		@each $name in map-keys($defaults) {
-			--readable-color-#{$name}: contrast-color(var(--color-#{$name}));
+
+		[data-background="#{$colorName}"] {
+			--background-color: var(--color-#{$colorName});
+			--active-color: var(--color-secondary); // can be contextually changed where this default doesn't suit
 		}
 	}
 
-	@each $name in map-keys($defaults) {
-		body[data-global-background="#{$name}"] {
-			background-color: var(--color-#{$name});
-			color: var(--readable-color-#{$name});
+	// Separate loop for color theme to ensure it takes precedence in the cascade
+	// (e.g., so data-background="white" isn't further down in the CSS than data-color-theme="primary",
+	// causing an element with both attributes to end up with the wrong text color)
+	@each $colorName in $colourNames {
+		[data-color-theme="#{$colorName}"] {
+			--theme-color: var(--color-#{$colorName});
 		}
+	}
 
-		[data-background="#{$name}"] {
-			--background-color: var(--color-#{$name});
-			--theme-color: var(--readable-color-#{$name});
-			background: var(--background-color);
-			color: var(--theme-color);
-		}
-
-		[data-color-theme="#{$name}"] {
-			--theme-color: var(--color-#{$name});
-			--theme-color-inverse: var(--readable-color-#{$name});
+	// Default 50/50 gradients
+	@each $colorName in $colourNames {
+		@each $colorName2 in $colourNames {
+			@if ($colorName != $colorName2) {
+				[data-background="#{$colorName}-#{$colorName2}"] {
+					--background-color: var(--gradient-#{$colorName}-#{$colorName2});
+				}
+			}
 		}
 	}
 }

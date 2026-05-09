@@ -1,14 +1,14 @@
 import { ThemeColor } from './types';
 
 export const defaultTheme: Record<ThemeColor, string> = {
-	'primary': '#845ec2',
-	'secondary': '#00c9a7',
-	'accent': '#ba3caf',
-	'info': '#00d2fc',
-	'warning': '#f9c971',
-	'success': '#00c9a7',
-	'error': '#d23e3e',
-	'light': '#F0F0F2',
-	'dark': '#4b4453',
+	'primary': '#502595',
+	'secondary': '#845ec2',
+	'accent': '#b01b87',
+	'info': '#24a8e1',
+	'warning': '#ffc75f',
+	'success': '#0abfa0',
+	'error': '#ff775f',
+	'light': 'ghostwhite',
+	'dark': '#200F3C',
 	'white': '#ffffff'
 };

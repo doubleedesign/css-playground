@@ -9,6 +9,7 @@
 		"build-storybook": "storybook build"
 	},
 	"devDependencies": {
+		"@doubleedesign/doublee-site-style": "github:doubleedesign/doublee-site-style",
 		"@storybook/addon-a11y": "^10.3.5",
 		"@storybook/addon-docs": "^10.3.5",
 		"@storybook/vue3-vite": "^10.3.5",

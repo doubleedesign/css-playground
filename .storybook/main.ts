@@ -11,6 +11,5 @@ const config: StorybookConfig = {
 		'@whitespace/storybook-addon-html'
 	],
 	'framework': '@storybook/vue3-vite',
-	staticDirs: ['../sb-assets']
 };
 export default config;

@@ -6,9 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="878bcd82-468d-4f09-ae7b-04476f7b772c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colour-theming/palette.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/palette.stories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageSection/PageSection.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PaletteDemo/PaletteDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PaletteDemo/PaletteDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/manager-head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-assets/prism-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-assets/prism-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-assets/prism-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/default-theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/default-theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colour-theming/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/colour-theming/global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +87,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-WS-261.22158.274" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
       </set>
     </attachedChunks>
   </component>
@@ -86,7 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1776561710521</updated>
       <workItem from="1776561711588" duration="21699000" />
-      <workItem from="1776644328286" duration="2873000" />
+      <workItem from="1776644328286" duration="6695000" />
+      <workItem from="1778290008600" duration="2024000" />
     </task>
     <servers />
   </component>
